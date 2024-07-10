@@ -1,0 +1,84 @@
+/*共通のCSS*/
+body{
+  max-width: 1500px;
+  margin: 0 auto 0 auto;
+  font-family: " sans-serif, Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial;
+  background-color: #A0C3D2;
+}
+
+/*ヘッダー*/
+
+
+
+
+/*メインビジュアル*/
+#mainvisual{
+  max-width:100%;
+  padding:300px;
+  text-align: center;
+  margin:0 auto;
+  background: url(img/29971195_m.jpg) no-repeat 0 0 / cover;
+}
+
+.mainvisual-img > h1 {
+  color:#fff;
+  font-size:50px;
+}
+
+
+/*アバウト*/
+#about{
+  background-color:#F7F5EB;
+  padding:100px;
+}
+
+.about-detail{
+  display:flex;
+}
+
+/*クイズ*/
+#quiz{
+  text-align: center;
+  padding:80px;
+}
+
+.quiz-section{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+
+}
+
+.quiz-title{
+  font-size:50px;
+  font-weight:bold;
+  color:#fff;
+  text-decoration: none;
+}
+
+
+.quiz-1{
+  background: url(img/28182565_m.jpg) no-repeat 0 0 / cover;
+  max-width:150px;
+  padding:150px;
+
+}
+
+.quiz-2{
+  background: url(img/24454940_s.jpg) no-repeat 0 0 / cover;
+  padding:150px;
+  max-width:150px;
+}
+
+.quiz-3{
+  background: url(img/24454984_s.jpg) no-repeat 0 0 / cover;
+  padding:150px;
+  max-width:150px;
+}
+
+.quiz-4{
+  background: url(img/29727231_s.jpg) no-repeat 0 0 / cover;
+  padding:150px;
+  max-width:150px;
+}
